@@ -1,0 +1,14 @@
+<addon 
+    id="script.module.debug.softalks.com" 
+    version="0.0.1" 
+    name="Remote debugging for Python 3 Kodi addons" 
+    provider-name="Santiago Ruiz">
+    <requires>
+        <import 
+            addon="xbmc.python" 
+            version="3.0.0"/>
+    </requires>
+    <extension 
+        point="xbmc.python.module" 
+        library="export" />
+</addon>
