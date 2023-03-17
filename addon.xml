@@ -1,7 +1,7 @@
 <addon 
     id="script.module.debug.softalks.com" 
     version="0.0.1" 
-    name="Remote debugging for Python 3 Kodi addons" 
+    name="Remote debugging for Python add-ons" 
     provider-name="Santiago Ruiz">
     <requires>
         <import 
