@@ -2,7 +2,9 @@
 name = "com.softalks.debug"
 version = "0.0.1"
 requires-python = ">=3.0.0"
-authors = ["Santiago Ruiz"]
+authors = [
+  "Santiago Ruiz <hiebra@hotmail.com>"
+]
 description = "Easy remote debugging for Python 3"
 [tool.setuptools.packages.find]
 where = ["export"]
