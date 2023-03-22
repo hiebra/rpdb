@@ -11,7 +11,7 @@ To debug your module (after installing this component on your [pip](#pip)/[Kodi]
 * Execution should stop at line 29 of `debug.py`. Press F8 to jump to your first breakpoint
 > All modules with a namespace starting by `com.softalks.` are debuggable by design. If your module or any previously loading module are using them you are free to ignore the first requirement
 
-> The last requirement is a [candidate to disappear](https://github.com/hiebra/debug.py/issues/1) in the next version
+> The last requirement is a [candidate to disappear](https://github.com/hiebra/rpdb/issues/1) in the next version
 ## pip
 > Under Ubuntu 22.04 ensure the environment variable `DEB_PYTHON_INSTALL_LAYOUT` has the value `deb_system` before using pip to install/uninstall this package (click [here](https://github.com/pypa/setuptools/issues/3269#issuecomment-1254507377) for details)
 ### Install
@@ -19,14 +19,14 @@ To debug your module (after installing this component on your [pip](#pip)/[Kodi]
 
 An example of installing a specific version (0.0.1):
 ```
-pip3 install git+https://github.com/hiebra/debug.py.git@v0.0.1
+pip3 install git+https://github.com/hiebra/rpdb.git@v0.0.1
 ```
 You can also install it indirectly when referenced from a depending component's `pyproject.toml`:
 ```
 [project]
 ...
 dependencies = [
-    "com.softalks.debug @ git+https://github.com/hiebra/debug.py@v0.0.1",
+    "com.softalks.debug @ git+https://github.com/hiebra/rpdb@v0.0.1",
 ]
 ```
 ### Uninstall
