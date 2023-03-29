@@ -1,6 +1,6 @@
 <addon 
     id="script.module.debug.softalks.com" 
-    version="0.0.1" 
+    version="1.0.0" 
     name="Remote debugging for Python add-ons" 
     provider-name="Santiago Ruiz">
     <requires>
