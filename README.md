@@ -6,7 +6,7 @@ To debug your module (after installing this component on your [pip](#pip)/[Kodi]
 1. Define one or more breakpoints on your module using the PyDev Python editor
 1. Start the PyDev debug server (your module will only stop while the server is running)
 1. If not done for any importing or imported module, add the line `__import__('com.softalks.debug')` at the start of your module 
-1. Run the proper use case of the program that loads your module
+1. Run the proper use case of the external program loading your module
 1. Wait a few seconds until execution stops
 1. Execution should pause at line 29 of `debug.py`. Press F8 to jump to your first breakpoint
 > All modules with the namespace `com.softalks` are debuggable by design. If your module (or any loaded module importing yours) impots any module of that namespace, you can ignore the fourth requirement
