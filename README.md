@@ -10,7 +10,7 @@ To debug your module (after installing this component on your [pip](#pip)/[Kodi]
 1. Wait a few seconds until execution stops
 1. Execution should pause at line 29 of `debug.py`. Press F8 to jump to your first breakpoint
 ### Notes
-* All modules with the namespace `com.softalks` are debuggable by design. If your module (or any loaded module importing yours) impots any module of that namespace, you can ignore the fourth requirement
+* All modules with the namespace `com.softalks` are debuggable by design. If your module (or any loaded module importing yours) imports any module with that namespace, you can ignore the fourth requirement
 
 * I'd like the last requirement to disappear, [if possible](https://github.com/hiebra/rpdb/issues/1), in a next version
 ## pip
