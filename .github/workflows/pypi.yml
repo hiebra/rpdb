@@ -1,7 +1,7 @@
 name: PyPI/TestPyPI
 on: [push]
 jobs:
-  build-n-publish:
+  main:
     name: Build and publish
     runs-on: ubuntu-latest
     steps:
