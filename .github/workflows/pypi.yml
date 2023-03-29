@@ -24,10 +24,6 @@ jobs:
         --wheel
         --outdir dist/
         .
-    - name: Show the dist directory contents
-      run: |
-        tree dist
-        cat dist/com.softalks.debug-1.0.0-py3-none-any.whl
     - name: Publish to Test PyPI
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
