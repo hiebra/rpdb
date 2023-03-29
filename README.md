@@ -25,7 +25,7 @@ To install the last one:
 ```
 pip3 install https://github.com/hiebra/101-py/archive/refs/heads/main.zip
 ```
-You can also install it indirectly when referenced from a depending component's `pyproject.toml`:
+You can also install it indirectly by a reference from a depending component's `pyproject.toml`:
 ```
 [project]
 ...
