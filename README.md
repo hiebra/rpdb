@@ -1,7 +1,7 @@
 # com.softalks.debug
 Easy remote debugging for Python 3 under Linux & [Eclipse PyDev](https://www.pydev.org/)/[LiClipse](https://www.liclipse.com/)
 ## Requirements
-To debug your module (after installing this component on your [pip](#pip)/[Kodi](#Kodi) environment) you will need to: 
+To debug your module, after installing this component on your [pip](#pip)/[Kodi](#Kodi) environment, you will need to: 
 1. Set the environment variable PYDEVD to your Eclipse home directory (a Launch Configuration referencing `${eclipse.home}` is recomended)
 1. Define one or more breakpoints on your module using the PyDev Python editor
 1. Start the PyDev debug server (debugging will only happen while the server is running)
