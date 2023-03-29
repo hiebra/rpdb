@@ -14,7 +14,7 @@ To debug your module (after installing this component on your [pip](#pip)/[Kodi]
 
 * I'd like the last requirement to disappear, [if possible](https://github.com/hiebra/rpdb/issues/1), in a next version
 ## Python package manager (pip)
-> Under Ubuntu 22.04 ensure the environment variable `DEB_PYTHON_INSTALL_LAYOUT` has the value `deb_system` before using pip to install/uninstall this package (click [here](https://github.com/pypa/setuptools/issues/3269#issuecomment-1254507377) for details)
+> Under Linux Mint 21.1 (Ubuntu 22.04) ensure the environment variable `DEB_PYTHON_INSTALL_LAYOUT` has the value `deb_system` before using pip to install/uninstall this package (click [here](https://github.com/pypa/setuptools/issues/3269#issuecomment-1254507377) for details)
 ### Install
 > To be able to install this package with pip you need to install `git` first
 
