@@ -8,7 +8,7 @@ To debug your module (after installing this component on your [pip](#pip)/[Kodi]
 1. If not done for any importing or imported module, add the line `__import__('com.softalks.debug')` at the start of your module 
 1. Run the proper use case of the external program loading your module
 1. Wait a few seconds until execution stops
-1. Execution should pause at line 29 of `debug.py`. Press F8 to jump to your first breakpoint
+1. Execution should pause at line 29 of `debug.py`. Press F8 to continue running until your first breakpoint
 ### notes
 * All modules with the namespace `com.softalks` are debuggable by design. If your module (or any loaded module importing yours) imports any module with that namespace, you can ignore the fourth requirement
 
