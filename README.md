@@ -19,14 +19,18 @@ To debug your module (after installing this component on your [pip](#pip)/[Kodi]
 
 An example of installing a specific version (0.0.1):
 ```
-pip3 install git+https://github.com/hiebra/rpdb.git@v0.0.1
+pip3 install https://github.com/hiebra/rpdb/archive/refs/tags/v0.0.1.zip
+```
+To install the last one:
+```
+pip3 install https://github.com/hiebra/101-py/archive/refs/heads/main.zip
 ```
 You can also install it indirectly when referenced from a depending component's `pyproject.toml`:
 ```
 [project]
 ...
 dependencies = [
-    "com.softalks.debug @ git+https://github.com/hiebra/rpdb@v0.0.1",
+    "com.softalks.debug @ https://github.com/hiebra/rpdb/archive/refs/tags/v0.0.1.zip"
 ]
 ```
 ### Uninstall
