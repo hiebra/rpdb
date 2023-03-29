@@ -11,7 +11,7 @@ To debug your module (after installing this component on your [pip](#pip)/[Kodi]
 1. Execution should pause at line 29 of `debug.py`. Press F8 to jump to your first breakpoint
 > All modules with the namespace `com.softalks` are debuggable by design. If your module (or any importing module) is importing any of them, you can ignore the fourth requirement
 
-> The last requirement is a [candidate to disappear](https://github.com/hiebra/rpdb/issues/1) in the next version
+> The last requirement will disappear, [if possible](https://github.com/hiebra/rpdb/issues/1), in a next version
 ## pip
 > Under Ubuntu 22.04 ensure the environment variable `DEB_PYTHON_INSTALL_LAYOUT` has the value `deb_system` before using pip to install/uninstall this package (click [here](https://github.com/pypa/setuptools/issues/3269#issuecomment-1254507377) for details)
 ### Install
