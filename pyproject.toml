@@ -6,5 +6,3 @@ authors = [
   {name = "Santiago Ruiz", email= "hiebra@hotmail.com"}
 ]
 description = "Easy remote debugging for Python 3"
-[tool.setuptools.packages.find]
-where = ["export"]

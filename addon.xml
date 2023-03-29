@@ -10,5 +10,5 @@
     </requires>
     <extension 
         point="xbmc.python.module" 
-        library="export" />
+        library="src" />
 </addon>
